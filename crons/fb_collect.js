@@ -84,7 +84,7 @@ function printOwnerCount(songsMap) {
 function scrollDown() {
     var interval = setInterval(function() {
         window.scrollTo(0,document.body.scrollHeight);
-    }
+    });
 
     return interval;
 }
