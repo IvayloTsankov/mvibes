@@ -88,3 +88,12 @@ function scrollDown() {
 
     return interval;
 }
+
+function songsSum() {
+    var sum = 0;
+    for(var x in songsMap) {
+        sum += songsMap[x];
+    }
+
+    return sum;
+}
